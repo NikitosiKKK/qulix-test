@@ -47,6 +47,14 @@
             "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [

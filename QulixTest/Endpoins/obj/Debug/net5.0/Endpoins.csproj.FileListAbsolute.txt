@@ -36,3 +36,4 @@ F:\проекты\QulixTets\QulixTest\Endpoins\obj\Debug\net5.0\Endpoins.csproj.
 F:\проекты\QulixTets\QulixTest\Endpoins\obj\Debug\net5.0\Endpoins.dll
 F:\проекты\QulixTets\QulixTest\Endpoins\obj\Debug\net5.0\ref\Endpoins.dll
 F:\проекты\QulixTets\QulixTest\Endpoins\obj\Debug\net5.0\Endpoins.pdb
+F:\проекты\QulixTets\QulixTest\Endpoins\obj\Debug\net5.0\Endpoins.csproj.AssemblyReference.cache
