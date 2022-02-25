@@ -34,7 +34,7 @@ namespace Endpoins
             MySqlCommand command = new MySqlCommand(comand, connection);
             MySqlDataReader read = command.ExecuteReader();
             while (read.Read()) {
-                i = String.Format("%1$d %2$d ", i, read[0].ToString());
+                i = String.Format("{0} {1} ", i, read[0].ToString());
             }
             return i;
         }
