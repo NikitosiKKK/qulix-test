@@ -13,9 +13,8 @@ namespace Endpoins.Models
 
         public string GetAllContent()
         {
-            string comand = "Select * from qulixtestdb.`author`";
             db.OpenConnection();
-            comand= db.GetInf(comand);
+            string comand =db.GetInf();
             db.closeConnection();
             return comand;
         }

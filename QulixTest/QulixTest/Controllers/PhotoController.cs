@@ -12,16 +12,29 @@ namespace QulixTest.Controllers
     public class PhotoController : ControllerBase
     {
         GetContent content = new GetContent();
+        //string AuthorNAme, AuthorNik, PhotoName, PhotoUrl, PhotoSize, PhotaRating, TextName, TextContent, TextSize, TextRating;
+        //int AuthorOld, PhotoPrice, PhotoPurchases, TextPrice, TextPurchases;
+      
         [HttpGet]
-        public  string GetAll()
+        public string GetAll()
         {
             return content.GetAllContent();
         }
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("allphotos")]
+        public string GetAllPhotos()
         {
-            return "The Value is " + id;
+            return "The Value is ";
         }
 
+        [HttpGet("photobyid")]
+        public string GetPhotoById()
+        {
+            return "The Value is ";
+        }
+        [HttpGet("getalltext")]
+        public string GetAllText()
+        {
+            return "The Value is ";
+        }
     }
 }
