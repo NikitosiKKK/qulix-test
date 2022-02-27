@@ -37,5 +37,6 @@ namespace QulixTest.Controllers
         {
             return content.GetTextContent();
         }
+       
     }
 }
