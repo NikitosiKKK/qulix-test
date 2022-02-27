@@ -11,10 +11,23 @@ namespace Endpoins.Models
         DB db = new DB();
         
 
-        public string GetAllContent()
+        public string GetPhotoContent()
         {
             db.OpenConnection();
-            string comand =db.GetInf();
+            string comand =db.GetPhotoInf();
+            db.closeConnection();
+            return comand;
+        }
+        public string GetTextContent()
+        {
+            db.OpenConnection();
+            string comand = db.GetTextInf();
+            db.closeConnection();
+            return comand;
+        }
+        public string GetPhotoById(string id) {
+            db.OpenConnection();
+            string comand = db.GetPhotoById(id);
             db.closeConnection();
             return comand;
         }

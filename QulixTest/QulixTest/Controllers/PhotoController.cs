@@ -18,23 +18,24 @@ namespace QulixTest.Controllers
         [HttpGet]
         public string GetAll()
         {
-            return content.GetAllContent();
+            return content.GetPhotoContent();
         }
         [HttpGet("allphotos")]
         public string GetAllPhotos()
         {
-            return "The Value is ";
+            return content.GetPhotoContent();
         }
 
-        [HttpGet("photobyid")]
-        public string GetPhotoById()
+        [HttpGet("{id}")]
+        public string GetPhotoById(string id)
         {
-            return "The Value is ";
+            
+            return content.GetPhotoById(id);
         }
         [HttpGet("getalltext")]
         public string GetAllText()
         {
-            return "The Value is ";
+            return content.GetTextContent();
         }
     }
 }
