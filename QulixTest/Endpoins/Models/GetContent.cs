@@ -13,7 +13,7 @@ namespace Endpoins.Models
     public class GetContent
     {
         DB db = new DB();
-        string filePath = "F://проекты/QulixTets/text";
+        string filePath = "F://проекты/QulixTets/text/text.txt";
         ArrayList DBPhotoCollection = new ArrayList();
         string[] PItems = new string[13];
         ArrayList DBTextCollection = new ArrayList();
