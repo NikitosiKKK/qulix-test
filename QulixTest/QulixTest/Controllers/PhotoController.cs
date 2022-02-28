@@ -12,31 +12,45 @@ namespace QulixTest.Controllers
     public class PhotoController : ControllerBase
     {
         GetContent content = new GetContent();
-        //string AuthorNAme, AuthorNik, PhotoName, PhotoUrl, PhotoSize, PhotaRating, TextName, TextContent, TextSize, TextRating;
-        //int AuthorOld, PhotoPrice, PhotoPurchases, TextPrice, TextPurchases;
-      
-        [HttpGet]
-        public string GetAll()
-        {
-            return content.GetPhotoContent();
-        }
-        [HttpGet("allphotos")]
-        public string GetAllPhotos()
-        {
-            return content.GetPhotoContent();
-        }
 
-        [HttpGet("{id}")]
-        public string GetPhotoById(string id)
+        //Получаем вывод всех данных.В page указываем номер страницы.
+        [HttpGet("getalltext_page={page}")]
+        public List<CommonModel> GetAllContent(int page)
         {
-            
+            return content.GetAllContent(page);
+        }
+        //Получаем вывод всех фото.В page указываем номер страницы.
+        [HttpGet("allphotos_page={page}")]
+        public List<PhotoInf> GetAllPhotos(int page)
+        {
+            return content.GetPhotoContent(page);
+        }
+        //Получаем фото по Id.
+        [HttpGet("id={id}")]
+        public PhotoInf GetPhotoById(string id)
+        {
+
             return content.GetPhotoById(id);
         }
+        //Получаем все сущности text, с записью в файл txt.
         [HttpGet("getalltext")]
-        public string GetAllText()
+        public List<TextInf> GetAllText()
         {
             return content.GetTextContent();
         }
-       
+        //Меняем сущность фото по имени.
+        [HttpPost("change")]
+        public void Create([FromBody]Photomodel model)
+        {
+         content.ChangePhoto(model);
+        }
+        //Вызов для создани БД.
+        [HttpGet("createdb")]
+        public void CreateDB([FromBody] Photomodel model)
+        {
+            DBCreation db = new DBCreation();
+            db.CreateDB();
+        }
+
     }
-}
+} 

@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/photo",
+      "launchUrl": "https://localhost:44346/api/photo/getalltext_page=1",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

@@ -1,8 +1,8 @@
-Id	Name	Nickname	Old	Author Date	AID	Name of text	content	size	Text Date	Price	Purchases	Rating
-1	Иван Сергеевич	 Kozar	29	26.02.2022 16:58:43	1	Вышел из воды с ухой	Кулинарная книга	1 том	26.02.2022 20:56:03	50	100	 
-2	Никита Сергеевич	Rentgen	23	26.02.2022 16:58:43	2	Как убежать от Биар Грилса	Уроки выживания для насекомых	205 страниц	26.02.2022 20:56:03	1	1000000000	 
-3	Карина Каптур	Karikap	20	26.02.2022 16:58:43	3	Подари розу брату	Уроки стеклодува	321 страниц	26.02.2022 20:56:03	256	263	 
-4	Елена Николаевна	 Elesuk	24	26.02.2022 16:58:43	4	От сердца и почек, а что это за комочек?	Хирургия стран СНГ	500 страниц	26.02.2022 20:56:03	536	23452534	 
-2	Никита Сергеевич	Rentgen	23	26.02.2022 16:58:43	2	Пять минут полет норма...	Краткое обучение о том как сложить парашют	1 странца	26.02.2022 20:56:03	12	0	 
-4	Елена Николаевна	 Elesuk	24	26.02.2022 16:58:43	4	Ура удаленке!	ГДЗ	765 страниц	26.02.2022 20:56:03	150	1275	 
-1	Иван Сергеевич	 Kozar	29	26.02.2022 16:58:43	1	Я не лучница, а стрелочница	Психология для женщин	1500 страниц	26.02.2022 20:56:03	500	10201	 
+ 
+AuthorId:1	AuthorNAme:Иван Сергеевич	AuthorNik: Kozar	AuthorOld:29	AuthorDate:26.02.2022 16:58:43	TextName:Вышел из воды с ухой	TextContent:Кулинарная книга	TextSize:1 том	TextDate:26.02.2022 20:56:03	TextPrice:50	TextPurchases:100	TextRating:0 
+AuthorId:2	AuthorNAme:Никита Сергеевич	AuthorNik:Rentgen	AuthorOld:23	AuthorDate:26.02.2022 16:58:43	TextName:Как убежать от Биар Грилса	TextContent:Уроки выживания для насекомых	TextSize:205 страниц	TextDate:26.02.2022 20:56:03	TextPrice:1	TextPurchases:1000000000	TextRating:0 
+AuthorId:3	AuthorNAme:Карина Каптур	AuthorNik:Karikap	AuthorOld:20	AuthorDate:26.02.2022 16:58:43	TextName:Подари розу брату	TextContent:Уроки стеклодува	TextSize:321 страниц	TextDate:26.02.2022 20:56:03	TextPrice:256	TextPurchases:263	TextRating:0 
+AuthorId:4	AuthorNAme:Елена Николаевна	AuthorNik: Elesuk	AuthorOld:24	AuthorDate:26.02.2022 16:58:43	TextName:От сердца и почек, а что это за комочек?	TextContent:Хирургия стран СНГ	TextSize:500 страниц	TextDate:26.02.2022 20:56:03	TextPrice:536	TextPurchases:23452534	TextRating:0 
+AuthorId:2	AuthorNAme:Никита Сергеевич	AuthorNik:Rentgen	AuthorOld:23	AuthorDate:26.02.2022 16:58:43	TextName:Пять минут полет норма...	TextContent:Краткое обучение о том как сложить парашют	TextSize:1 странца	TextDate:26.02.2022 20:56:03	TextPrice:12	TextPurchases:0	TextRating:0 
+AuthorId:4	AuthorNAme:Елена Николаевна	AuthorNik: Elesuk	AuthorOld:24	AuthorDate:26.02.2022 16:58:43	TextName:Ура удаленке!	TextContent:ГДЗ	TextSize:765 страниц	TextDate:26.02.2022 20:56:03	TextPrice:150	TextPurchases:1275	TextRating:0 
+AuthorId:1	AuthorNAme:Иван Сергеевич	AuthorNik: Kozar	AuthorOld:29	AuthorDate:26.02.2022 16:58:43	TextName:Я не лучница, а стрелочница	TextContent:Психология для женщин	TextSize:1500 страниц	TextDate:26.02.2022 20:56:03	TextPrice:500	TextPurchases:10201	TextRating:0 
