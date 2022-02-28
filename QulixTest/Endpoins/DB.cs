@@ -10,7 +10,7 @@ namespace Endpoins
 {
     class DB
     {
-        MySqlConnection connection = new MySqlConnection("server=localhost;port=3306;username=root;password=root;database=qulixtestdb");
+        MySqlConnection connection = new MySqlConnection("server=localhost;port=3306;username=root;password=root;");
         public void OpenConnection()
         {
             if (connection.State == System.Data.ConnectionState.Closed)

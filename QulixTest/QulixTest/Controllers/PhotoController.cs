@@ -46,7 +46,7 @@ namespace QulixTest.Controllers
         }
         //Вызов для создани БД.
         [HttpGet("createdb")]
-        public void CreateDB([FromBody] Photomodel model)
+        public void CreateDB()
         {
             DBCreation db = new DBCreation();
             db.CreateDB();

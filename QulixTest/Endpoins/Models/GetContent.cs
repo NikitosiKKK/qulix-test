@@ -130,7 +130,7 @@ namespace Endpoins.Models
         public void ChangePhoto(Photomodel model) {
             Photomodel m = model;   
             db.OpenConnection();
-            MySqlCommand command = new MySqlCommand($"UPDATE photo SET rating='{m.PhotoRating}', authorid='{m.AuthorId}',purchases='{m.PhotoPurchases}', mydate='{m.PhotoDate}', url='{m.PhotoUrl}',price='{m.PhotoPrice}', size='{m.PhotoSize}' WHERE name='{m.PhotoName}';", db.getConnection());
+            MySqlCommand command = new MySqlCommand($"UPDATE qulixtestdb.`photo` SET rating='{m.PhotoRating}', authorid='{m.AuthorId}',purchases='{m.PhotoPurchases}', mydate='{m.PhotoDate}', url='{m.PhotoUrl}',price='{m.PhotoPrice}', size='{m.PhotoSize}' WHERE name='{m.PhotoName}';", db.getConnection());
             command.ExecuteNonQuery();
             db.closeConnection();
         }
